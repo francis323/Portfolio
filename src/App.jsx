@@ -1,23 +1,20 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import { ChevronDown } from "lucide-react"
-import { motion } from "framer-motion"
+import { NavBar } from "./components/layout/NavBar"
 function App() {
 
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={
-          <div className='bg-amber-600'>
-            <ChevronDown />
-            <motion.h2
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4 }}>
-              Hello World
-            </motion.h2>
-          </div>
-        } />
-      </Routes>
+      <NavBar />
+      <main className="mt-36">
+        <Routes>
+          <Route path="/" element={
+            <div className='bg-amber-600'>
+              <h1 className='text-3xl text-amber-950'>Hello World</h1>
+            </div>
+          } />
+        </Routes>
+      </main>
+
     </BrowserRouter>
   )
 }
