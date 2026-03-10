@@ -1,2 +1,20 @@
 @import "tailwindcss";
 
+@theme{
+    --color-background: #010101;
+    --color-foreground: #FEFEFE;
+    --color-span: #7B7B7B;
+    --color-secondary: #C4C4C4;
+    --color-terciary: #888888;
+    --color-stroke: #2A2A2A;
+    --color-background-secondary: #0A0A0A;
+    --color-tags: #7A7A7A;
+
+    --font-inter: 'Inter', sans-serif;
+}
+
+body{
+    /* background-color: var(--color-background); */
+    color: var(--color-foreground);
+    font-family: var(--font-inter);
+}
