@@ -12,15 +12,15 @@ export function NavBar() {
         >
             <div className='max-w-308 flex justify-between w-full items-center'>
                 <img src={logo} alt="Logo" />
-                <ul className="flex gap-4 font-inter uppercase text-sm font-medium text-foreground">
+                <ul className="flex gap-4 font-inter uppercase text-sm font-medium text-secondary">
                     <li>
-                        <a href="#work">Work</a>
+                        <a className='hover:text-foreground transition-colors duration-300' href="#work">Work</a>
                     </li>
                     <li>
-                        <a href="#about">About</a>
+                        <a className='hover:text-foreground transition-colors duration-300' href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a className='hover:text-foreground transition-colors duration-300' href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
