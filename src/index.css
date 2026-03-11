@@ -22,4 +22,5 @@ body {
     background-position: 0 0, 5px 8.66px;
     color: var(--color-foreground);
     font-family: var(--font-inter);
+    line-height: 1.5;
 }
