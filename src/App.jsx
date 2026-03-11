@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      <main className="max-w-308 mx-auto">
+      <main className="max-w-308 mx-auto px-6 md:px-0">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
