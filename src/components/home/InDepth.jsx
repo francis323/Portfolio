@@ -32,7 +32,7 @@ export function InDepth() {
             description={project.description}
             screenImage={project.screenImage}
             alt={project.title}
-            onClick={() => navigate(`/projects/${project.id}`)}
+            onClick={() => {navigate(`/projects/${project.id}`), window.scrollTo({ top: 0, behavior: 'smooth' });}}
             reversed={project.id % 2 === 0}
         />
       ))}

@@ -2,9 +2,12 @@ import { useState } from "react";
 import logo from '/logo.svg'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
+import { useNavigate } from "react-router-dom";
+
 
 export function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
+    const navigate = useNavigate();
 
     return (
         <>
@@ -16,7 +19,9 @@ export function NavBar() {
                 role="navigation"
             >
                 <div className='max-w-308 flex justify-between w-full items-center'>
-                    <img src={logo} alt="Logo" />
+                    <button className="cursor-pointer" onClick={() => {navigate("/"), window.scrollTo({ top: 0, behavior: 'smooth' });}}>
+                        <img src={logo} alt="Logo" />
+                    </button>
 
                     {/* Desktop */}
                     <ul className="hidden md:flex gap-4 font-inter uppercase text-sm font-medium text-secondary">
