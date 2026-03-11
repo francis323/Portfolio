@@ -1,17 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { NavBar } from "./components/layout/NavBar"
+import { Home } from "./components/pages/Home"
 function App() {
 
   return (
     <BrowserRouter>
       <NavBar />
-      <main className="mt-36">
+      <main className="max-w-308 mx-auto">
         <Routes>
-          <Route path="/" element={
-            <div className='bg-amber-600'>
-              <h1 className='text-3xl text-amber-950'>Hello World</h1>
-            </div>
-          } />
+          <Route path="/" element={<Home />} />
         </Routes>
       </main>
 

@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme{
+@theme {
     --color-background: #010101;
     --color-foreground: #FEFEFE;
     --color-span: #7B7B7B;
@@ -13,8 +13,13 @@
     --font-inter: 'Inter', sans-serif;
 }
 
-body{
-    /* background-color: var(--color-background); */
+body {
+    background-color: var(--color-background);
+    background-image: 
+        radial-gradient(circle, #b0b0b011 1.5px, transparent 1.5px),
+        radial-gradient(circle, #b0b0b011 1.5px, transparent 1.5px);
+    background-size: 10px 17.32px;
+    background-position: 0 0, 5px 8.66px;
     color: var(--color-foreground);
     font-family: var(--font-inter);
 }
