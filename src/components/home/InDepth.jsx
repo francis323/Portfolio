@@ -15,9 +15,9 @@ const fadeUp = {
 export function InDepth() {
   const navigate = useNavigate();
   return (
-    <section className="lg:my-36">
+    <section id="work" className="lg:my-36 overflow-hidden">
       <motion.h2
-        className="text-center text-[2.5rem]"
+        className="text-center text-2xl md:text-[2.5rem]"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}

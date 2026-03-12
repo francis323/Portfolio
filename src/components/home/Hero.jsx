@@ -38,7 +38,7 @@ export function Hero() {
                 <motion.p className="text-lg md:text-2xl font-medium" variants={fadeUp}>
                     Francisco Sequeira <span className="text-span">- UX Designer</span>
                 </motion.p>
-                <motion.h1 className="text-3xl md:text-5xl" variants={fadeUp}>
+                <motion.h1 className="text-2xl md:text-5xl" variants={fadeUp}>
                     UX-focused designer creating intuitive, accessible, and user-centered digital experiences from research to interface.
                 </motion.h1>
             </div>

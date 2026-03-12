@@ -19,7 +19,7 @@ export function Skills() {
     return (
         <section className="lg:my-36 my-24">
             <motion.h2
-                className="text-center text-[2.5rem]"
+                className="text-center text-2xl md:text-[2.5rem]"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
@@ -28,7 +28,7 @@ export function Skills() {
                 Skills and Expertise
             </motion.h2>
 
-            <div className="flex flex-col md:flex-row gap-17 mt-35">
+            <div className="flex flex-col md:flex-row gap-17 mt-12 lg:mt-35">
 
                 {/* Design Skills */}
                 <motion.div

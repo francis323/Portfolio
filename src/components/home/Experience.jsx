@@ -20,7 +20,7 @@ export function Experience() {
     return (
         <section id="experience" className="lg:my-36 my-12">
             <motion.h2
-                className="text-center text-[2.5rem]"
+                className="text-center text-2xl md:text-[2.5rem]"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
@@ -29,7 +29,7 @@ export function Experience() {
                 Work Experience
             </motion.h2>
             <motion.div
-                className="mt-35"
+                className="mt-12 lg:mt-35"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.1 }}

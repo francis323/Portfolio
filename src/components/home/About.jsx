@@ -19,7 +19,7 @@ export function About() {
     return (
         <section id="about" className="lg:my-36 my-12">
             <motion.h2
-                className="text-center text-[2.5rem]"
+                className="text-center text-2xl md:text-[2.5rem]"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
@@ -27,7 +27,7 @@ export function About() {
             >
                 About Me
             </motion.h2>
-            <div className="flex gap-20 mt-35 flex-col lg:flex-row">
+            <div className="flex gap-20 mt-12 lg:mt-35 flex-col lg:flex-row">
 
                 {/* Highlights */}
                 <motion.div

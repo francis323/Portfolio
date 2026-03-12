@@ -13,7 +13,7 @@ export function ProjectCard({ title, description, screenImage, alt, reversed = f
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       >
-        <h3 className="text-3xl md:text-4xl mb-4">{title}</h3>
+        <h3 className="text-xl md:text-4xl mb-4">{title}</h3>
         <p className="text-secondary">{description}</p>
         <div>
           <motion.button

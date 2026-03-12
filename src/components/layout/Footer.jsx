@@ -7,13 +7,13 @@ export function Footer() {
                         <p>Jose Francisco Sequeira Mendoza</p>
                         <p className="text-terciary text-base">UI/UX Designer & Frontend Developer</p>
                     </div>
-                    <ul className="flex space-x-4 text-secondary uppercase font-medium gap-6">
-                        <li>
+                    <ul className="flex space-x-4 text-secondary uppercase font-medium gap-3">
+                        <li className="hover:text-foreground">
                             <a href="mailto:jose.sequeiramendoza@ucr.ac.cr"
                                 target="_blank"
                                 rel="noopener noreferrer">Email</a>
                         </li>
-                        <li>
+                        <li className="hover:text-foreground">
 
                             <a href="https://www.linkedin.com/in/francisco-sequeira-mendoza/"
                                 target="_blank"
