@@ -66,3 +66,30 @@ export const projects = [
         reflection: "The PyCon Latam 2026 web experience project was a valuable opportunity to apply user-centered design principles to a real-world project. The positive outcomes of the redesign reinforced the importance of conducting thorough user research and iterating based on feedback to create an effective and engaging user experience. Moving forward, I plan to continue refining my design process and exploring new ways to enhance user engagement and satisfaction in future projects.",
     }
 ]
+
+export const personal_data = {
+    about: {
+        highlights: [
+            {
+                title: "Designer + Developer",
+                description: "I'm a UX-focused designer with a background in frontend development, which allows me to design experiences that are not only intuitive, but also realistic and buildable. I enjoy turning complex systems into clear, usable interfaces that feel natural to interact with."
+            },
+            {
+                title: "Centered on Usability",
+                description: "My work is centered on usability, accessibility, and consistency. I'm especially interested in information architecture, interaction design, and design systems — creating structures that help products grow without losing clarity. I approach design as a problem-solving process, balancing user needs, business goals, and technical constraints."
+            },
+            {
+                title: "Attention to Detail",
+                description: "I care about the details, the flows between screens, and the small decisions that make a product feel easy instead of overwhelming."
+            }
+        ],
+        location: "Belén, Heredia, Costa Rica",
+        education: "Bachelor in Informatics and Multimedia Technology",
+        focusAreas: "Information Architecture, Interaction Design, Design Systems",
+        currentlyLearning: [
+            "Photography and Edition",
+            "Advanced Prototyping Techniques",
+            "Motion Design for UI"
+        ]
+    }
+}
