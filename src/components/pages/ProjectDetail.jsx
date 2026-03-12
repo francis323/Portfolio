@@ -20,6 +20,9 @@ export function ProjectDetail() {
     const { id } = useParams();
     const project = projects.find((p) => p.id === parseInt(id));
 
+    if (!project) {
+        return <div className="mt-40 flex justify-center items-center">Project not found</div>;
+    }
     return (
         <div className="mt-44 md:px-0">
 
