@@ -1,8 +1,8 @@
 export function Footer() {
     return (
-        <footer className="bg-background-secondary border-t border-stroke py-10 justify-center flex w-full">
+        <footer className="bg-background-secondary border-t border-stroke p-5 py-10 justify-center flex w-full">
             <div className="max-w-308 w-full">
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center flex-wrap gap-6">
                     <div>
                         <p>Jose Francisco Sequeira Mendoza</p>
                         <p className="text-terciary text-base">UI/UX Designer & Frontend Developer</p>
