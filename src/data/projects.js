@@ -91,5 +91,65 @@ export const personal_data = {
             "Advanced Prototyping Techniques",
             "Motion Design for UI"
         ]
-    }
+    },
+    skills: {
+        uxTechnical: [
+            "UX Research & User Interviews",
+            "Wireframing & Prototyping (Figma, Adobe XD)",
+            "Usability Testing & Analysis",
+            "Design Systems & Component Libraries",
+            "Frontend Development (React, TypeScript, HTML, CSS)",
+            "Accessibility & WCAG Compliance"
+        ],
+        softSkills: [
+            "Clear Communication & Presentation",
+            "Cross-functional Team Collaboration",
+            "Analytical & Critical Thinking",
+            "Attention to Detail",
+            "Empathy & User Advocacy",
+            "Problem-Solving & Iterative Design"
+        ]
+    },
+    workExperience: [
+        {
+            title: "UI/UX Designer – Web Design & Prototyping",
+            company: "Universidad de Costa Rica",
+            duration: "Jul 2025 – Present",
+            highlights: [
+                "Designed academic websites and internal platforms using UI/UX principles",
+                "Created layouts, interaction patterns, and user flows in Figma",
+                "Built prototypes to validate navigation and user experience",
+                "Developed diagrams and workflows using FigJam",
+                "Built and maintained reusable UI components for visual consistency"
+            ]
+        },
+        {
+            title: "Web Designer",
+            company: "Midware",
+            duration: "Aug 2025 – Oct 2025",
+            highlights: [
+                "Designed a SaaS platform focused on CI/CD workflows",
+                "Created interface views and interaction patterns in Figma",
+                "Developed case-study style views to validate design decisions",
+                "Designed and maintained a reusable design system",
+                "Documented UI components aligned with the system",
+                "Conducted A/B testing to improve user experience",
+                "Used UI libraries such as shadcn/ui and Lucide",
+                "Produced high-fidelity prototypes for end-to-end user flows"
+            ]
+        },
+        {
+            title: "Frontend Developer",
+            company: "Universidad de Costa Rica",
+            duration: "Apr 2025 – Jul 2025",
+            highlights: [
+                "Developed scalable frontend solutions for internal university projects",
+                "Built reusable UI components using React (JSX)",
+                "Designed modals and structured views to support clear user flows",
+                "Integrated frontend features with backend services via API consumption",
+                "Implemented responsive interfaces using HTML, CSS, and Tailwind CSS",
+                "Worked under agile methodologies (Scrum) and used Git for collaboration"
+            ]
+        }
+    ]
 }
