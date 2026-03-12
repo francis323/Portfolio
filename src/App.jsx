@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { NavBar } from "./components/layout/NavBar"
+import { Footer } from "./components/layout/Footer"
 import { Home } from "./components/pages/Home"
 import { ProjectDetail } from "./components/pages/ProjectDetail"
 function App() {
@@ -13,7 +14,7 @@ function App() {
           <Route path="/projects/:id" element={<ProjectDetail />} />
         </Routes>
       </main>
-
+      <Footer />
     </BrowserRouter>
   )
 }

@@ -58,8 +58,8 @@ export function Hero() {
                             rel="noopener noreferrer"
                             href={link.href}
                             className="text-terciary hover:text-foreground hover:scale-105 transition-all duration-300"
-                            whileHover={{ scale: 1.1 }}
-                            whileTap={{ scale: 0.95 }}
+                            // whileHover={{ scale: 1.1 }}
+                            // whileTap={{ scale: 0.95 }}
                         >
                             <link.Icon />
                         </motion.a>
